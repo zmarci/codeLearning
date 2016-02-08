@@ -10,18 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
-    @IBOutlet weak var button: UIButton!
-    
-    @IBAction func buttonPressed(sender: AnyObject) {
-        
-        button.setImage(UIImage(named: "cross.png"), forState: UIControlState.Normal)
-        
-     
+    @IBAction func buttonPressed(sender: AnyObject)
+    {
+        sender.setImage(UIImage(named: "cross.png"), forState: UIControlState.Normal)
     }
     
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
