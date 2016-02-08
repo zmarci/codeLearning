@@ -15,6 +15,7 @@
 		71DF29B41C64A4E1007B5E15 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 71DF29B11C64A4E1007B5E15 /* board.png */; };
 		71DF29B51C64A4E1007B5E15 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 71DF29B21C64A4E1007B5E15 /* cross.png */; };
 		71DF29B61C64A4E1007B5E15 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 71DF29B31C64A4E1007B5E15 /* nought.png */; };
+		71DF29B81C68B11E007B5E15 /* Hook up outlets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71DF29B71C68B11E007B5E15 /* Hook up outlets.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		71DF29B11C64A4E1007B5E15 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
 		71DF29B21C64A4E1007B5E15 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 		71DF29B31C64A4E1007B5E15 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+		71DF29B71C68B11E007B5E15 /* Hook up outlets.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Hook up outlets.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		71DF29931C64A406007B5E15 = {
 			isa = PBXGroup;
 			children = (
+				71DF29B71C68B11E007B5E15 /* Hook up outlets.storyboard */,
 				71DF299E1C64A406007B5E15 /* Noughts and Crosses */,
 				71DF299D1C64A406007B5E15 /* Products */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71DF29B81C68B11E007B5E15 /* Hook up outlets.storyboard in Resources */,
 				71DF29B51C64A4E1007B5E15 /* cross.png in Resources */,
 				71DF29B41C64A4E1007B5E15 /* board.png in Resources */,
 				71DF29B61C64A4E1007B5E15 /* nought.png in Resources */,
